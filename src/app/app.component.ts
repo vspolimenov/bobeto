@@ -8,7 +8,7 @@ import {FormBuilder, FormGroup} from '@angular/forms';
 export class AppComponent {
 
   options: FormGroup;
-  title = 'airwolfyProject';
+  title = 'bobeto';
   isMenu:boolean;
 
   constructor(fb: FormBuilder) {
