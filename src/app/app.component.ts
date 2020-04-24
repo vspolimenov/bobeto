@@ -10,6 +10,8 @@ export class AppComponent {
   options: FormGroup;
   title = 'bobeto';
   isMenu:boolean;
+  text:string;
+  wish:string;
 
   constructor(fb: FormBuilder) {
     this.options = fb.group({
@@ -19,7 +21,14 @@ export class AppComponent {
     });
   }
   ngOnInit(){
-    this.isMenu = false;
+    this.text = localStorage.getItem("location");
+    this.wish = localStorage.getItem("wish");
+}
+saveLocation(){
+  localStorage.setItem("location",this.text);
+}
+saveWish(){
+  localStorage.setItem("wish",this.wish);
 }
   goToCrew(){
     document.body.scrollTop = 700;
