@@ -15,9 +15,7 @@
 .text-padding{
   text-align: center;
   max-width: 100vh;
-  padding-left: 50px;
-  padding-bottom: 50px;
-  padding-top: 80px;
+  
 }
 .text-padding-2{
   text-align: left;
@@ -40,8 +38,9 @@
     }
     .photo{
       width:100%;
-      height:100%;
+      height:auto;
       max-width: 100vh;
+      margin-left: 5%;
     }
   
     .header-poss{
