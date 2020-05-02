@@ -52,3 +52,30 @@
       width: 100vh;
       z-index: 10;
     }
+    h2 { color: palevioletred; font-family: 'Rouge Script', cursive; font-size: 60px; font-weight: normal; line-height: 70px; margin-bottom: 20px; 
+      padding-left:10%; text-shadow: 1px 1px 2px palevioletred; }
+
+
+    h3 {  font-size: 30px; letter-spacing: -1px; color: #000; text-transform: uppercase; text-shadow: 1px 1px 0 #000; margin: 10px 0 24px;  line-height: 50px; }
+    
+    
+    p { color: #000; font-family: 'Carme', sans-serif; font-size: 16px; line-height: 24px; margin: 0 0 24px; }
+    
+
+    .svg-separator{
+      display: block;
+      background: 0 0;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      z-index: 9;
+      -webkit-transform: translateY(-100%) translateY(2px);
+      transform: translateY(-100%) translateY(2px);
+      width: 100%;
+    }
+    .svg-separator.bottom{
+      top: auto;
+      bottom: 0;
+    }
+   
