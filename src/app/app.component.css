@@ -9,10 +9,8 @@
       height:10%;
     }
     
-    .photo-2{
-      width:50%;
+    .width-max{
       max-width: 100vh;
-      height:50%;
     }
 .text-padding{
   text-align: center;
@@ -52,7 +50,7 @@
       width: 100vh;
       z-index: 10;
     }
-    h2 { color: palevioletred; font-family: 'Rouge Script', cursive; font-size: 60px; font-weight: normal; line-height: 70px; margin-bottom: 20px; 
+    h2 { color: palevioletred; font-family: 'Rouge Script', cursive;  font-weight: normal; margin-bottom: 20px; 
       padding-left:10%; text-shadow: 1px 1px 2px palevioletred; }
 
 
